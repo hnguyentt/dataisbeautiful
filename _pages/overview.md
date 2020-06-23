@@ -9,9 +9,9 @@ This project, inspired by [DataIsBeautiful Battles](https://www.reddit.com/r/dat
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
 .tg td{background-color:#fdf6e3;border-color:#93a1a1;border-style:solid;border-width:1px;color:#002b36;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+  font-family:Arial, sans-serif;font-size:12px;overflow:hidden;padding:5px 5px;word-break:normal;}
 .tg th{background-color:#657b83;border-color:#93a1a1;border-style:solid;border-width:1px;color:#fdf6e3;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+  font-family:Arial, sans-serif;font-size:12px;font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
 .tg .tg-vjpu{background-color:#ecf4ff;border-color:inherit;font-weight:bold;text-align:left;vertical-align:middle}
 .tg .tg-32pj{border-color:inherit;font-size:large;font-weight:bold;text-align:center;vertical-align:middle}
 .tg .tg-y698{background-color:#efefef;border-color:inherit;text-align:left;vertical-align:top}
