@@ -1,13 +1,29 @@
 {
   
+    
+        "post0": {
+            "title": "Algea growth rate",
+            "content": "Which group do these algae species belong to? . These algae species can be devided into 9 group as below: . To isolate a species, double click on the corresponding legend. | To hide a species, single click on the corresponding legend. | Freely rotate with diversed angles to observe more clearly. | Hover on the point to see the information. | . Given the same condition, what species grow faster? . Heatmaps is useful for this visualization. . Inspired by DataViz Battle1 . . Data sourced from &quot;DataViz Battle for the month of January 2018: Visualize the Growth Rates of Algae&quot; organized by *r/dataisbeautiful&#8617; . |",
+            "url": "https://nguyenhoa93.github.io/dataisbeautiful/algea-growth-rate/",
+            "relUrl": "/algea-growth-rate/",
+            "date": " • Jun 22, 2020"
+        }
+        
+    
+  
 
   
   
 
   
-      "page1": {
+  
+
+  
+
+  
+      ,"page3": {
           "title": "Overview",
-          "content": "This website is powered by fastpages 1. . . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
+          "content": "This project, inspired by DataIsBeautiful Battles from r/dataisbeautiful, is not limited to data visualization for these battles but will span a wide range of topics in biological data. . Topic Title Demo . r/dataisbeautiful | [Jan 2018] Algae growth rate | link | . [Feb 2018] US Legal Status of Same-sex Marriage | coming soon | . [Mar 2018] Over 100,000 stars | coming soon | . [Apr 2018] Stories at offices | coming soon | . [May 2018] Accidents in the Great Britain | coming soon | . [Jun 2018] Roman Emperors | coming soon | . [Jul 2018] Which birds prefer which seeds | coming soon | . [Aug 2018] TSA Claims | coming soon | . [Sep 2018] 802 Pokemon | coming soon | . [Oct 2018] Survey from r/travel | coming soon | . [Nov 2018] NASA Astronauts | coming soon | . [Dec 2018] Freezing and Thawing cycle of Lake Mendota | coming soon | . Genomics | coming soon | | . Proteomics | coming soon | | . This website is powered by fastpages 1. . . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
           "url": "https://nguyenhoa93.github.io/dataisbeautiful/overview/",
           "relUrl": "/overview/",
           "date": ""
@@ -16,8 +32,6 @@
   
 
   
-
-  
   
 
   
@@ -37,7 +51,7 @@
   
 
   
-      ,"page10": {
+      ,"page11": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://nguyenhoa93.github.io/dataisbeautiful/robots.txt",

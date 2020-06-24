@@ -13,7 +13,7 @@
 <meta property="og:url" content="https://nguyenhoa93.github.io/dataisbeautiful/overview/" />
 <meta property="og:site_name" content="Data Is Beautiful" />
 <script type="application/ld+json">
-{"description":"Let data speak through visualization. Powered by FastPages.","headline":"Overview","@type":"WebPage","url":"https://nguyenhoa93.github.io/dataisbeautiful/overview/","@context":"https://schema.org"}</script>
+{"description":"Let data speak through visualization. Powered by FastPages.","@type":"WebPage","headline":"Overview","url":"https://nguyenhoa93.github.io/dataisbeautiful/overview/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/dataisbeautiful/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://nguyenhoa93.github.io/dataisbeautiful/feed.xml" title="Data Is Beautiful" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -32,7 +32,7 @@
 <meta property="og:url" content="https://nguyenhoa93.github.io/dataisbeautiful/overview/" />
 <meta property="og:site_name" content="Data Is Beautiful" />
 <script type="application/ld+json">
-{"description":"Let data speak through visualization. Powered by FastPages.","headline":"Overview","@type":"WebPage","url":"https://nguyenhoa93.github.io/dataisbeautiful/overview/","@context":"https://schema.org"}</script>
+{"description":"Let data speak through visualization. Powered by FastPages.","@type":"WebPage","headline":"Overview","url":"https://nguyenhoa93.github.io/dataisbeautiful/overview/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -59,6 +59,23 @@
     });
     </script>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+<script type="text/javascript">
+require.config({
+  paths: {
+    jquery: 'https://code.jquery.com/jquery-3.5.0.min',
+    plotly: 'https://cdn.plot.ly/plotly-latest.min'
+  },
+
+  shim: {
+    plotly: {
+      deps: ['jquery'],
+      exports: 'plotly'
+    }
+  }
+});
+</script>
 
 <script>
 function wrap_img(fn) {
@@ -89,6 +106,7 @@ window.onload = wrap_img;
     elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
     });
 </script>
+
 </head><body><header class="site-header">
 
     <div class="wrapper"><a class="site-title" rel="author" href="/dataisbeautiful/">Data Is Beautiful</a><nav class="site-nav">
@@ -102,7 +120,7 @@ window.onload = wrap_img;
           </label>
 
           <div class="trigger">
-            <a class="page-link" href="https://github.com/nguyenhoa93/dataisbeautiful"><svg class="octicon octicon-mark-github octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+            <a class="page-link" href="https://github.com/nguyenhoa93/dataisbeautiful"><svg class="octicon octicon-mark-github octicon octicon-mark-github octicon octicon-mark-github octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a>
             <a class="page-link" href="https://nguyenhoa93.github.io/">Main Page</a><a class="page-link" href="/dataisbeautiful/overview/">Overview</a><a class="page-link" href="/dataisbeautiful/search/">Search</a><a class="page-link" href="/dataisbeautiful/categories/">Tags</a></div>
         </nav></div>
   </header><main class="page-content" aria-label="Content">
@@ -114,7 +132,92 @@ window.onload = wrap_img;
   </header>
 
   <div class="post-content">
-    <p>This website is powered by <strong><a href="https://github.com/fastai/fastpages">fastpages</a></strong> <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+    <p>This project, inspired by <a href="https://www.reddit.com/r/dataisbeautiful/comments/7kl3k1/announcing_dataisbeautiful_battles_create_compete/">DataIsBeautiful Battles</a> from <strong><em>r/dataisbeautiful</em></strong>, is not limited to data visualization for these battles but will span a wide range of topics in biological data.</p>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg td{background-color:#fdf6e3;border-color:#93a1a1;border-style:solid;border-width:1px;color:#002b36;
+  font-family:Arial, sans-serif;font-size:12px;overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg th{background-color:#657b83;border-color:#93a1a1;border-style:solid;border-width:1px;color:#fdf6e3;
+  font-family:Arial, sans-serif;font-size:12px;font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-vjpu{background-color:#ecf4ff;border-color:inherit;font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-32pj{border-color:inherit;font-size:large;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-y698{background-color:#efefef;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-fgdu{background-color:#ecf4ff;border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+</style>
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-32pj">Topic</th>
+    <th class="tg-32pj">Title</th>
+    <th class="tg-32pj">Demo</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-vjpu" rowspan="12">r/dataisbeautiful</td>
+    <td class="tg-y698">[Jan 2018] Algae growth rate</td>
+    <td class="tg-y698"><a href="https://nguyenhoa93.github.io/dataisbeautiful/algea-growth-rate/" target="_blank" rel="noopener noreferrer">link</a></td>
+  </tr>
+  <tr>
+    <td class="tg-y698">[Feb 2018] US Legal Status of Same-sex Marriage</td>
+    <td class="tg-y698"><a href="https://www.reddit.com/r/dataisbeautiful/comments/7vegvf/battle_dataviz_battle_for_the_month_of_february/" target="_blank" rel="noopener noreferrer">coming soon</a></td>
+  </tr>
+  <tr>
+    <td class="tg-y698">[Mar 2018] Over 100,000 stars</td>
+    <td class="tg-y698"><a href="https://www.reddit.com/r/dataisbeautiful/comments/825mg6/battle_dataviz_battle_for_the_month_of_march_2018/" target="_blank" rel="noopener noreferrer">coming soon</a></td>
+  </tr>
+  <tr>
+    <td class="tg-y698">[Apr 2018] Stories at offices</td>
+    <td class="tg-y698"><a href="https://www.reddit.com/r/dataisbeautiful/comments/88ymvb/battle_dataviz_battle_for_the_month_of_april_2018/" target="_blank" rel="noopener noreferrer">coming soon</a></td>
+  </tr>
+  <tr>
+    <td class="tg-y698">[May 2018] Accidents in the Great Britain</td>
+    <td class="tg-y698"><a href="https://www.reddit.com/r/dataisbeautiful/comments/8hmt9d/battle_dataviz_battle_for_the_month_of_may_2018/" target="_blank" rel="noopener noreferrer">coming soon</a></td>
+  </tr>
+  <tr>
+    <td class="tg-y698">[Jun 2018] Roman Emperors</td>
+    <td class="tg-y698"><a href="https://www.reddit.com/r/dataisbeautiful/comments/8ogk4k/battle_dataviz_battle_for_the_month_of_june_2018/" target="_blank" rel="noopener noreferrer">coming soon</a></td>
+  </tr>
+  <tr>
+    <td class="tg-y698">[Jul 2018] Which birds prefer which seeds</td>
+    <td class="tg-y698"><a href="https://www.reddit.com/r/dataisbeautiful/comments/8vhxhq/battle_dataviz_battle_for_the_month_of_july_2018/" target="_blank" rel="noopener noreferrer">coming soon</a></td>
+  </tr>
+  <tr>
+    <td class="tg-y698">[Aug 2018] TSA Claims</td>
+    <td class="tg-y698"><a href="https://www.reddit.com/r/dataisbeautiful/comments/950j3n/battle_dataviz_battle_for_the_month_of_august/" target="_blank" rel="noopener noreferrer">coming soon</a></td>
+  </tr>
+  <tr>
+    <td class="tg-y698">[Sep 2018] 802 Pokemon</td>
+    <td class="tg-y698"><a href="https://www.reddit.com/r/dataisbeautiful/comments/9cuzs3/battle_dataviz_battle_for_the_month_of_september/" target="_blank" rel="noopener noreferrer">coming soon</a></td>
+  </tr>
+  <tr>
+    <td class="tg-y698">[Oct 2018] Survey from <span style="font-weight:bold;font-style:italic">r/travel</span></td>
+    <td class="tg-y698"><a href="https://www.reddit.com/r/dataisbeautiful/comments/9kfrjr/battle_dataviz_battle_for_the_month_of_october/" target="_blank" rel="noopener noreferrer">coming soon</a></td>
+  </tr>
+  <tr>
+    <td class="tg-y698">[Nov 2018] NASA Astronauts</td>
+    <td class="tg-y698"><a href="https://www.reddit.com/r/dataisbeautiful/comments/9ud457/battle_dataviz_battle_for_the_month_of_november/" target="_blank" rel="noopener noreferrer">coming soon</a></td>
+  </tr>
+  <tr>
+    <td class="tg-y698">[Dec 2018] Freezing and Thawing cycle of Lake Mendota</td>
+    <td class="tg-y698"><a href="https://www.reddit.com/r/dataisbeautiful/comments/a2p5f0/battle_dataviz_battle_for_the_month_of_december/" target="_blank" rel="noopener noreferrer">coming soon</a></td>
+  </tr>
+  <tr>
+    <td class="tg-fgdu">Genomics</td>
+    <td class="tg-y698">coming soon</td>
+    <td class="tg-y698"></td>
+  </tr>
+  <tr>
+    <td class="tg-fgdu">Proteomics</td>
+    <td class="tg-y698">coming soon</td>
+    <td class="tg-y698"></td>
+  </tr>
+</tbody>
+</table>
+
+<p><em>This website is powered by <strong><a href="https://github.com/fastai/fastpages">fastpages</a></strong> <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.</em></p>
 
 <hr />
 
