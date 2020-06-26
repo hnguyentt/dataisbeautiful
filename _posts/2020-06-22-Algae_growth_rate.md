@@ -29,7 +29,7 @@ layout: notebook
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Which-group-do-these-algae-species-belong-to?">Which group do these algae species belong to?<a class="anchor-link" href="#Which-group-do-these-algae-species-belong-to?"> </a></h3><p>These algae species can be devided into 9 group as below:</p>
+<h3 id="Which-group-do-these-algae-species-belong-to?">Which group do these algae species belong to?<a class="anchor-link" href="#Which-group-do-these-algae-species-belong-to?"> </a></h3><p>These algae species can be devided into 9 groups as below:</p>
 
 </div>
 </div>
