@@ -4,7 +4,7 @@ description: At different light intensities and temperatures.
 title: Algea growth rate
 comments: true
 author: Hoa Nguyen
-categories: [reddit-battle-2018]
+categories: [reddit-battle-2018,3d-scatter,heatmap]
 image: images/algae_growth_rate.png
 permalink: /algea-growth-rate/
 nb_path: _notebooks/2020-06-22-Algae_growth_rate.ipynb
@@ -61,12 +61,7 @@ layout: notebook
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>To isolate a species, double click on the corresponding legend.</li>
-<li>To hide a species, single click on the corresponding legend.</li>
-<li>Freely rotate with diversed angles to observe more clearly.</li>
-<li>Hover on the point to see the information.</li>
-</ul>
+<p>{% include tip.html content='<br>- To isolate a species, double click on the corresponding legend.<br>- To hide a species, single click on the corresponding legend.<br>- Freely rotate with diversed angles to observe more clearly.<br>- Hover on the point to see the information.' %}</p>
 
 </div>
 </div>
