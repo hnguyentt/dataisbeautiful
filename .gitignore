@@ -13,3 +13,4 @@ _notebooks/.ipynb_checkpoints
 __pycache__
 .idea
 settings.ini
+.DS_Store
