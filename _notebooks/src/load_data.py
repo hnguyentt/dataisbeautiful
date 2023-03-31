@@ -7,7 +7,7 @@ from pathlib import Path
 import wget
 
 IN_COLAB = 'google.colab' in sys.modules
-BASE_URL = "https://raw.githubusercontent.com/nguyenhoa93/dataisbeautiful/master/assets/data/"
+BASE_URL = "https://raw.githubusercontent.com/hnguyentt/dataisbeautiful/master/assets/data/"
 
 
 def get_datapath(filename):

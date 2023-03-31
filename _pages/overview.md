@@ -29,7 +29,7 @@ This project, inspired by [DataIsBeautiful Battles](https://www.reddit.com/r/dat
   <tr>
     <td class="tg-vjpu" rowspan="12">r/dataisbeautiful</td>
     <td class="tg-y698">[Jan 2018] Algae growth rate</td>
-    <td class="tg-y698"><a href="https://nguyenhoa93.github.io/dataisbeautiful/algea-growth-rate/" target="_blank" rel="noopener noreferrer">link</a></td>
+    <td class="tg-y698"><a href="https://hnguyentt.github.io/dataisbeautiful/algea-growth-rate/" target="_blank" rel="noopener noreferrer">link</a></td>
   </tr>
   <tr>
     <td class="tg-y698">[Feb 2018] US Legal Status of Same-sex Marriage</td>
