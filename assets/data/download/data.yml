@@ -1,7 +1,0 @@
----
-# settings for downloading data
-
-reddit_jan_18:
-  url: http://aquatext.com/tables/algaegrwth.htm
-  func: html2tsv
-  out: 2018_01_reddit_Algaegrwth.tsv
